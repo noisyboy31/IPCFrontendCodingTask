@@ -57,8 +57,8 @@ const UserDirectory: React.FC = () => {
       </SearchContainer>
 
       <ButtonContainer>
-        <SortButton onClick={() => handleSort('name')}>Sort by Name</SortButton>
-        <SortButton onClick={() => handleSort('email')}>Sort by Email</SortButton>
+        <SortButton onClick={() => handleSort('name')}>Search by Name</SortButton>
+        <SortButton onClick={() => handleSort('email')}>Search by Email</SortButton>
       </ButtonContainer>
 
       {error && <p style={{ color: 'red', alignItems: 'center' }}>{error}</p>}
